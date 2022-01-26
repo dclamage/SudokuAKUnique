@@ -4,11 +4,11 @@
 
 This project uses a "gauntlet" approach and an essential solution list to find all ways to give 8 givens to solve uniquely as an anti-knight Sudoku.
 
-Anti-knight Sudoku follows Classic Sudoku rules, but also digits cannot be the same when they are a knight's move (as in chess) apart. From any given cell, this is up to 8 relavive locations: (-2, -1), (-2, 1), (-1, -2), (-1, 2), (1, -2), (1, 2), (2, -1), (2, 2).
+Anti-knight Sudoku follows Classic Sudoku rules, but also digits cannot be the same when they are a knight's move (as in chess) apart. From any given cell, this is up to 8 relative locations: (-2, -1), (-2, 1), (-1, -2), (-1, 2), (1, -2), (1, 2), (2, -1), (2, 2).
 
 ## Essential Solution List
 
-There are `8490104 * 9! = 3080888939520` anti-knight solutions to an 9x9 empty board. The `9!` symmetry is due to "renumbering" where you can always, say, swap all 1s and 2s and have another valid solution.
+There are `8490104 * 9! = 3080888939520` anti-knight solutions to a 9x9 empty board. The `9!` symmetry is due to "renumbering" where you can always, say, swap all 1s and 2s and have another valid solution.
 
 The "Essential Solution List" is the 8490104 solutions to a grid with `123456789` filled as the top row.
 
