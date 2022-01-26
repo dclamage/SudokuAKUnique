@@ -8,7 +8,7 @@ Anti-knight Sudoku follows Classic Sudoku rules, but also digits cannot be the s
 
 ## Essential Solution List
 
-There are `8490104 * 9! = 3080888939520` anti-knight solutions to a 9x9 empty board. The `9!` symmetry is due to "renumbering" where you can always, say, swap all 1s and 2s and have another valid solution.
+There are `8,490,104 * 9! = 3,080,888,939,520` anti-knight solutions to a 9x9 empty board. The `9!` symmetry is due to "renumbering" where you can always, say, swap all 1s and 2s and have another valid solution.
 
 The "Essential Solution List" is the 8490104 solutions to a grid with `123456789` filled as the top row.
 
@@ -31,7 +31,7 @@ The format of the text file is one solution per line which contains 81 character
 
 ## Results
 
-There are exactly `4 * 8 * 9!` ways to have 8 givens solve uniquely in anti-knight. This program produces just the 4 essential ones, and they can be rotated/reflected (`8`) as well as renumbered (`9!`) to produce all of them.
+There are exactly `4 * 8 * 9! = 11,612,160` ways to have 8 givens solve uniquely in anti-knight. This program produces just the 4 essential ones, and they can be rotated/reflected (`8`) as well as renumbered (`9!`) to produce all of them.
 
 Here is the list of 4 grids:
 
